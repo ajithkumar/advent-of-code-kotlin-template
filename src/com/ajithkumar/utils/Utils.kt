@@ -1,3 +1,5 @@
+package com.ajithkumar.utils
+
 import java.io.File
 import java.math.BigInteger
 import java.security.MessageDigest
@@ -5,6 +7,8 @@ import java.security.MessageDigest
 /**
  * Reads lines from the given input txt file.
  */
+fun readInputText(name: String) = File("src", "$name.txt").readText()
+
 fun readInput(name: String) = File("src", "$name.txt")
     .readLines()
 

@@ -1,3 +1,7 @@
+package com.ajithkumar.aoc2022
+
+import com.ajithkumar.utils.*
+
 fun main() {
     fun part1(input: List<String>): Int {
         return input.size
@@ -14,4 +18,6 @@ fun main() {
     val input = readInput("Day01")
     println(part1(input))
     println(part2(input))
+
+    
 }
