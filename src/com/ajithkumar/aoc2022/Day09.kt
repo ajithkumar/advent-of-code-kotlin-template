@@ -2,7 +2,6 @@ package com.ajithkumar.aoc2022
 
 import com.ajithkumar.utils.*
 import kotlin.math.absoluteValue
-import kotlin.math.ceil
 
 class Knot(var X: Int, var Y: Int) {
     fun moveAlone(direction: String) {
